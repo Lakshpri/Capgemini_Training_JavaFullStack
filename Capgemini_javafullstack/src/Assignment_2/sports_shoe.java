@@ -74,7 +74,7 @@ public class sports_shoe {
                     }
                 }
 
-                Arrays.sort(filtered); // price high → low (Comparable)
+                Arrays.sort(filtered); 
 
                 System.out.println("\n----- " + selectedType.toUpperCase() + " SHOES -----");
                 for (int i = 0; i < filtered.length; i++) {

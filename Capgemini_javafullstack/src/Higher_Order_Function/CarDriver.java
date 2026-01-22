@@ -9,9 +9,19 @@ public class CarDriver {
 	
 	
     public static void main(String args[]) {
-    	car c1=(a,b)->{
+    	//first way
+    	/*car c1=(a,b)->{
     		System.out.println(a+b);
     		};
     		m1(c1);
+    }*/
+    	
+    	//2nd way
+    //
+    	m1((a,b)->{
+    System.out.println(a+b);
+    
+});
     }
 }
+
