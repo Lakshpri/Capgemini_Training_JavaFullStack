@@ -11,4 +11,14 @@ public class methodreference_driver {
         methodreference i = methodreference_driver::m1;
         i.m1();
     }
+    
+    /*
+     * public void m(){
+     * System.out.println("Something") 
+     * }
+     * public static void main(String args[]){
+     * InterClass i= new InterClass();
+     * Inter i1=i::m;
+     * i1.m1();    */
 }
+
